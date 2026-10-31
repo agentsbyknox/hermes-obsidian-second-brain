@@ -12,4 +12,4 @@ Write to exactly ONE file: <VAULT>/00 Inbox/Capture proposals YYYY-MM-DD.md, usi
 For each proposal: a concise statement; type (lesson, decision, preference or procedure); destination (memory, skill, note or let it die); a one-line reason; and a compact source (session ID/date). Read the file back after writing and report its path and contents. Do not claim anything was promoted.
 ```
 
-`agent_context: false` keeps unreviewed proposals out of recall until you approve them.
+`agent_context: false`, together with the matching sentence in [`hermes/SOUL-snippet.md`](../hermes/SOUL-snippet.md), keeps unreviewed proposals out of recall until you approve them.
